@@ -1,0 +1,8 @@
+[project]
+name = "autonomous-data-analyse-agent"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["streamlit", "pandas", "numpy", "scikit-learn", "sqlalchemy", "chardet", "python-dotenv", "langchain", "langchain-google-genai", "langchain-openai", "langchain-groq", "langchain-ollama", "matplotlib", "seaborn", "watchdog"]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
