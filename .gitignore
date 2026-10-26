@@ -15,3 +15,5 @@ Agentic-Ai-/
 .agents/
 .claude/
 
+*.backup
+.venv 2/
